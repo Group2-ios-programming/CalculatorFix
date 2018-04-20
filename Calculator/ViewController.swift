@@ -48,7 +48,7 @@ class ViewController: UIViewController {
             operation = sender.tag
             performingMatch = true;
         }
-        else if sender.tag == 16 {
+        else if sender.tag == 16 { //=
             if operation == 12 {
                 label.text = String(previousNumber / numberOnScreen)
             }
