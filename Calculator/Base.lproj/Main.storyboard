@@ -32,6 +32,7 @@
                                     <color key="titleColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="number:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iUq-xN-YCS"/>
                                     <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gmr-GE-Ja9"/>
                                 </connections>
                             </button>
@@ -44,6 +45,7 @@
                                     <color key="titleColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="number:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mN4-9a-euV"/>
                                     <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="twD-9l-jpn"/>
                                 </connections>
                             </button>
@@ -56,6 +58,7 @@
                                     <color key="titleColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="number:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oh1-sJ-ZFi"/>
                                     <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HcG-fb-fJl"/>
                                 </connections>
                             </button>
@@ -68,6 +71,7 @@
                                     <color key="titleColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="number:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q5X-wp-022"/>
                                     <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q2x-7z-oDK"/>
                                 </connections>
                             </button>
@@ -80,6 +84,7 @@
                                     <color key="titleColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t2c-WN-HHj"/>
                                     <action selector="buttons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kVY-h5-TCT"/>
                                 </connections>
                             </button>
@@ -92,6 +97,7 @@
                                     <color key="titleColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="number:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OWO-0f-eWQ"/>
                                     <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RUJ-mG-qdZ"/>
                                 </connections>
                             </button>
@@ -104,6 +110,7 @@
                                     <color key="titleColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="number:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xqo-gR-6l7"/>
                                     <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P66-Z5-TKz"/>
                                 </connections>
                             </button>
@@ -116,10 +123,11 @@
                                     <color key="titleColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="number:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SB2-M4-oPn"/>
                                     <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oxV-p1-K6L"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fzG-sd-wza">
+                            <button opaque="NO" tag="18" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fzG-sd-wza">
                                 <rect key="frame" x="81" y="163" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -127,6 +135,9 @@
                                 <state key="normal" title="(">
                                     <color key="titleColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="number:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l8I-rB-hTN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="30c-OU-a7O">
                                 <rect key="frame" x="162" y="406" width="80" height="80"/>
@@ -137,6 +148,7 @@
                                     <color key="titleColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="number:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iYW-k0-mkz"/>
                                     <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bj7-TR-nk9"/>
                                 </connections>
                             </button>
@@ -149,6 +161,7 @@
                                     <color key="titleColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="number:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bai-KK-fJ2"/>
                                     <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B03-Nq-IaW"/>
                                 </connections>
                             </button>
@@ -161,10 +174,11 @@
                                     <color key="titleColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="number:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nkh-7I-jxH"/>
                                     <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Xc-Cj-LWS"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N4u-c3-6V1">
+                            <button opaque="NO" tag="19" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N4u-c3-6V1">
                                 <rect key="frame" x="162" y="163" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -172,6 +186,9 @@
                                 <state key="normal" title=")">
                                     <color key="titleColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="number:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3PT-Ua-E5q"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="15" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4e7-Hb-Hlk">
                                 <rect key="frame" x="243" y="406" width="80" height="80"/>
@@ -183,6 +200,7 @@
                                 </state>
                                 <connections>
                                     <action selector="buttons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0kT-d0-yGe"/>
+                                    <action selector="number:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L2y-1A-off"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="14" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zd8-Cz-QRm">
@@ -195,6 +213,7 @@
                                 </state>
                                 <connections>
                                     <action selector="buttons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9cr-Jf-h7h"/>
+                                    <action selector="number:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bvw-tD-f3n"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GVi-7k-07T">
@@ -207,6 +226,7 @@
                                 </state>
                                 <connections>
                                     <action selector="buttons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zi7-pN-46q"/>
+                                    <action selector="number:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rvr-Bd-Pvp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ojh-OO-56G">
@@ -219,9 +239,10 @@
                                 </state>
                                 <connections>
                                     <action selector="buttons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8bT-vc-Vy1"/>
+                                    <action selector="number:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kLd-qH-5zw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dU3-vn-qnI">
+                            <button opaque="NO" tag="17" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dU3-vn-qnI">
                                 <rect key="frame" x="162" y="487" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -229,6 +250,9 @@
                                 <state key="normal" title=".">
                                     <color key="titleColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="number:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ykO-2z-p0u"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="16" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Tn-4H-SXR">
                                 <rect key="frame" x="243" y="487" width="80" height="80"/>
@@ -239,6 +263,7 @@
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V8U-i8-hXI"/>
                                     <action selector="buttons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5VV-7V-Iwf"/>
                                 </connections>
                             </button>
