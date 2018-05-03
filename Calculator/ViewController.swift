@@ -117,9 +117,10 @@ class ViewController: UIViewController {
              + Chuoi phai khac rong (label.text != "")
              + Phan tu cuoi cung phai khac operation (temp != 2)
              + Phan tu cuoi cung phai khac dau . (temp != 3)
+             + Phan tu cuoi cung phai khac dau ngoac mo (temp != 4)
              + So luong ngoac mo > so luong ngoac dong (count > 0)
         */
-        else if label.text != "" && sender.tag == 19 && temp != 2 && temp != 3 && count > 0{
+        else if label.text != "" && sender.tag == 19 && temp != 2 && temp != 3 && temp != 4 && count > 0{
             stringWithMathematicalOperation += ")"
             label.text = stringWithMathematicalOperation
             temp = 5
