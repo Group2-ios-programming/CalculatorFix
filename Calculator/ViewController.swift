@@ -47,7 +47,7 @@ class ViewController: UIViewController {
          */
         if sender.tag < 12 && temp != 5{
             stringWithMathematicalOperation += String(sender.tag - 1)
-            label.text = stringWithMathematicalOperation
+            label.text = stringWithMathematicalOperation;
             temp = 1
         }
         //+
@@ -103,9 +103,9 @@ class ViewController: UIViewController {
         //(
         /*
         Dieu kien:
-             + Phan tu cuoi cung phai la empty hoac operation (temp == 0 || temp == 2)
+             + Phan tu cuoi cung phai la empty hoac operation hoac ( (temp == 0 || temp == 2 || temp == 4)
         */
-        else if sender.tag == 18 && (temp == 0 || temp == 2){
+        else if sender.tag == 18 && (temp == 0 || temp == 2 || temp == 4){
             stringWithMathematicalOperation += "("
             label.text = stringWithMathematicalOperation
             temp = 4
