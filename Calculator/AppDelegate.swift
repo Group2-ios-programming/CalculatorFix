@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  Calculator
-//
-//  Created by Nguyen Duc Nguu on 20/04/2018.
-//  Copyright © 2018 Nguyen Duc Nguu. All rights reserved.
-//
+
 
 import UIKit
 

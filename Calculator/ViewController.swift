@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  Calculator
-//
-//  Created by Nguyen Duc Nguu on 20/04/2018.
-//  Copyright © 2018 Nguyen Duc Nguu. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
@@ -37,6 +29,14 @@ class ViewController: UIViewController {
             stringWithMathematicalOperation = ""
             label.text = String(result)
         }
+        else if label.text != "" && sender.tag == 23 && count == 0
+        {
+            
+            label.text = String((Double(stringWithMathematicalOperation)!)*(-1.0))
+            temp = 2
+        }
+        
+        
     }
     
     @IBAction func number(_ sender: UIButton) {
@@ -49,6 +49,85 @@ class ViewController: UIViewController {
             stringWithMathematicalOperation += String(sender.tag - 1)
             label.text = stringWithMathematicalOperation;
             temp = 1
+        }
+        // +/-
+            /*
+             Dieu kien:
+             + Chuoi phai khac rong (label.text != "")
+             + Phan tu cuoi cung phai khac operation (temp != 2)
+             + Phan tu cuoi cung phai khac dau . (temp != 3)
+             */
+        else if label.text != "" && sender.tag == 23 && temp != 2 && temp != 3
+        {
+            label.text = String((Double(stringWithMathematicalOperation)!)/100)
+            temp = 0
+        }
+        //tinh tan
+        else if label.text != "" && sender.tag == 26 && temp != 2 && temp != 3
+        {
+            if ((Double(stringWithMathematicalOperation)!) == 90 )
+            {
+                label.text = "Error"
+            }
+                
+            else
+            {
+                label.text = String(tan((Double.pi*(Double(stringWithMathematicalOperation)!))/180))
+                temp = 0
+            }
+        }
+            //tinh cos
+        else if label.text != "" && sender.tag == 25 && temp != 2 && temp != 3
+        {
+            if ((Double(stringWithMathematicalOperation)!) == 90 )
+            {
+                label.text = String(0)
+                temp = 0
+                
+            }
+                
+            else
+            {
+                label.text = String(cos((Double.pi*(Double(stringWithMathematicalOperation)!))/180))
+                temp = 0
+                
+            }
+        }
+            
+            //tinh sin
+        else if label.text != "" && sender.tag == 24 && temp != 2 && temp != 3
+        {
+            
+            label.text = String(sin((Double.pi*(Double(stringWithMathematicalOperation)!))/180))
+            
+            temp = 0
+        }
+            
+            //tinh luy thua 2
+        else if label.text != "" && sender.tag == 22 && temp != 2 && temp != 3
+        {
+            label.text = String(pow((Double(stringWithMathematicalOperation)!), 2.0))
+            temp = 0
+        }
+            //ham log10
+        else if label.text != "" && sender.tag == 21 && temp != 2 && temp != 3
+        {
+            label.text = String(log10(Double(stringWithMathematicalOperation)!))
+            temp = 0
+        }
+            
+            //can bac 2
+        else if label.text != "" && sender.tag == 20 && temp != 2 && temp != 3
+        {
+            label.text = String(sqrt(Double(stringWithMathematicalOperation)!))
+            temp = 0
+        }
+            
+            //pi
+        else if label.text != "" && sender.tag == 27 && temp != 2 && temp != 3
+        {
+            label.text = String(Double.pi)
+            temp = 0
         }
         //+
         /*
